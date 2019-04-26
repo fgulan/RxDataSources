@@ -19,5 +19,5 @@ let package = Package(
     .target(name: "Differentiator"),
     .testTarget(name: "RxDataSourcesTests", dependencies: ["RxDataSources"]),
   ],
-  swiftLanguageVersions: [.v4_2, .v5]
+  swiftLanguageVersions: [.v4_2]
 )
